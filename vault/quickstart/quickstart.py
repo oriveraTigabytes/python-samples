@@ -41,7 +41,7 @@ def main():
     else:
         print('Matters:')
         for matter in matters:
-            print(u'{} ({})'.format(matter.get('name'), matter.get('id')))
+            print(u'{} ({})'.format(matter.get('name'), matter.get('matterId')))
 
 if __name__ == '__main__':
     main()
